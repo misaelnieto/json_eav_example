@@ -11,24 +11,15 @@ So, they need to have a dynamic data model. They want to avoid to add a table ev
 Q: How to solve this in a civilized way?
 A: This looks like a good fit for Entity Atribute Value (EAV) pattern.
 
-Backend:
-- Django
-- Postgresql
-- Django REST Framework
-
-Frontend:
-- Vue.JS ?
-
-Current state:
+## Current state:
 
 Backend:
-
-- [x] Django installed and configured
-- [x] Core data model
-- [ ] JSON API Backend
+- [x] Select the framework for the backend (Django + Postgresql + Django REST Framework).
+- [x] Django installed and configured.
+- [x] Core data model.
+- [ ] JSON API Backend.
 
 Frontend:
 - [ ] Decide framework
 - [ ] Basic Auth
 - [ ] Single Plage App using selected framework
-
